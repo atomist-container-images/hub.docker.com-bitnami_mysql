@@ -1,9 +1,12 @@
-# Tags: latest, 8.0.28-debian-10-r54, 8.0.28, 8.0-debian-10, 8.0
+# Tags: latest, 8.0.28-debian-10-r55, 8.0.28, 8.0-debian-10, 8.0
 FROM bitnami/mysql:latest
-FROM bitnami/mysql:8.0.28-debian-10-r54
+FROM bitnami/mysql:8.0.28-debian-10-r55
 FROM bitnami/mysql:8.0.28
 FROM bitnami/mysql:8.0-debian-10
 FROM bitnami/mysql:8.0
+
+# Tags: _
+FROM bitnami/mysql:_
 
 # Tags: 5.7.37-debian-10-r70, 5.7.37, 5.7-debian-10, 5.7
 FROM bitnami/mysql:5.7.37-debian-10-r70
@@ -11,8 +14,8 @@ FROM bitnami/mysql:5.7.37
 FROM bitnami/mysql:5.7-debian-10
 FROM bitnami/mysql:5.7
 
-# Tags: _
-FROM bitnami/mysql:_
+# Tags: 8.0.28-debian-10-r54
+FROM bitnami/mysql:8.0.28-debian-10-r54
 
 # Tags: 5.7.37-debian-10-r69
 FROM bitnami/mysql:5.7.37-debian-10-r69
